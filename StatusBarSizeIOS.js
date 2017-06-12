@@ -4,7 +4,7 @@
  */
 'use strict';
 
-const { NativeEventEmitter, StatusBarIOS, NativeModules } = require('react-native');
+const { StatusBarIOS, NativeModules } = require('react-native');
 const { StatusBarManager } = NativeModules;
 
 var DEVICE_STATUS_BAR_HEIGHT_EVENTS = {
